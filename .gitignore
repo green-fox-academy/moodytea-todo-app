@@ -1,0 +1,405 @@
+Last login: Mon Sep 25 22:26:27 on ttys004
+Katona-Air:~ moodytea$ cd Documents/greenfox/moodytea
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   week-04/day-1/Dominoes/Program.cs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   week-04/day-1/Dominoes/Program.cs
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Katona-Air:moodytea moodytea$ git add .
+Katona-Air:moodytea moodytea$ git commit -m "dominoes the little ...  dominoes"
+[master 9e5b8a7] dominoes the little ...  dominoes
+ 1 file changed, 11 insertions(+), 13 deletions(-)
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   week-04/day-2/GFOriganization/Person.cs
+	new file:   week-04/day-2/SuperNatural/Person.cs
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    week-04/day-2/GFOriganization/Person.cs
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	week-04/day-2/Dices/
+	week-04/day-2/SuperNatural/Program.cs
+	week-04/day-2/SuperNatural/SuperNatural.csproj
+	week-04/day-2/SuperNatural/SuperNatural.sln
+
+Katona-Air:moodytea moodytea$ git add .
+warning: CRLF will be replaced by LF in week-04/day-2/Dices/Dices.csproj.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-2/Dices/Dices.sln.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-2/SuperNatural/Program.cs.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-2/SuperNatural/SuperNatural.csproj.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-2/SuperNatural/SuperNatural.sln.
+The file will have its original line endings in your working directory.
+Katona-Air:moodytea moodytea$ git commit -m "spn started but not even close to done"
+[master a10e5c1] spn started but not even close to done
+ 7 files changed, 130 insertions(+)
+ create mode 100644 week-04/day-2/Dices/Dices.csproj
+ create mode 100644 week-04/day-2/Dices/Dices.sln
+ create mode 100644 week-04/day-2/Dices/Program.cs
+ create mode 100644 week-04/day-2/SuperNatural/Person.cs
+ create mode 100644 week-04/day-2/SuperNatural/Program.cs
+ create mode 100644 week-04/day-2/SuperNatural/SuperNatural.csproj
+ create mode 100644 week-04/day-2/SuperNatural/SuperNatural.sln
+Katona-Air:moodytea moodytea$ git push origin master
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (17/17), 2.35 KiB | 1.17 MiB/s, done.
+Total 17 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 3 local objects.
+To https://github.com/greenfox-academy/moodytea.git
+   c2aca57..a10e5c1  master -> master
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   week-04/day-3/Apple2/Apple2Test.csproj
+	new file:   week-04/day-3/Apple2/Test.cs
+	new file:   week-04/day-3/Apple2/packages.config
+	new file:   week-04/day-3/AppleProject/AddAppleClass.cs
+	new file:   week-04/day-3/AppleProject/AppleProjectTest/AppleTest.cs
+	new file:   week-04/day-3/AppleProject/packages.config
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    week-04/day-2/Dices/Dices.csproj
+	deleted:    week-04/day-2/Dices/Dices.sln
+	deleted:    week-04/day-2/Dices/Program.cs
+	deleted:    week-04/day-2/SuperNatural/Person.cs
+	deleted:    week-04/day-2/SuperNatural/Program.cs
+	deleted:    week-04/day-2/SuperNatural/SuperNatural.csproj
+	deleted:    week-04/day-2/SuperNatural/SuperNatural.sln
+	deleted:    week-04/day-3/Apple2/Apple2Test.csproj
+	deleted:    week-04/day-3/Apple2/Test.cs
+	deleted:    week-04/day-3/Apple2/packages.config
+	modified:   week-04/day-3/AppleProject/AddAppleClass.cs
+	modified:   week-04/day-3/AppleProject/AppleProjectTest/AppleTest.cs
+	modified:   week-04/day-3/AppleProject/packages.config
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	week-04/day-1/Dices/
+	week-04/day-3/AppleProject/AppleProject.csproj
+	week-04/day-3/AppleProject/AppleProject.sln
+	week-04/day-3/AppleProject/Program.cs
+	week-04/day-3/AppleProject/Properties/
+
+Katona-Air:moodytea moodytea$ git add .
+warning: CRLF will be replaced by LF in week-04/day-1/Dices/Dices.csproj.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-1/Dices/Dices.sln.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-3/AppleProject/AppleProject.csproj.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-3/AppleProject/AppleProject.sln.
+The file will have its original line endings in your working directory.
+Katona-Air:moodytea moodytea$ git commit -m "apple done"
+[master f3c3095] apple done
+ 14 files changed, 140 insertions(+), 43 deletions(-)
+ rename week-04/{day-2 => day-1}/Dices/Dices.csproj (100%)
+ rename week-04/{day-2 => day-1}/Dices/Dices.sln (100%)
+ rename week-04/{day-2 => day-1}/Dices/Program.cs (100%)
+ delete mode 100644 week-04/day-2/SuperNatural/Person.cs
+ delete mode 100644 week-04/day-2/SuperNatural/Program.cs
+ delete mode 100644 week-04/day-2/SuperNatural/SuperNatural.csproj
+ delete mode 100644 week-04/day-2/SuperNatural/SuperNatural.sln
+ create mode 100644 week-04/day-3/AppleProject/AddAppleClass.cs
+ create mode 100644 week-04/day-3/AppleProject/AppleProject.csproj
+ create mode 100644 week-04/day-3/AppleProject/AppleProject.sln
+ create mode 100644 week-04/day-3/AppleProject/AppleProjectTest/AppleTest.cs
+ create mode 100644 week-04/day-3/AppleProject/Program.cs
+ create mode 100644 week-04/day-3/AppleProject/Properties/AssemblyInfo.cs
+ create mode 100644 week-04/day-3/AppleProject/packages.config
+Katona-Air:moodytea moodytea$ git push 
+.DS_Store                 README.md                 week-03/
+.git/                     pallida-basic-exam-trial/ week-04/
+.gitattributes            week-01/                  
+.gitignore                week-02/                  
+Katona-Air:moodytea moodytea$ git push
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (15/15), 2.93 KiB | 1.47 MiB/s, done.
+Total 15 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/greenfox-academy/moodytea.git
+   a10e5c1..f3c3095  master -> master
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   week-04/day-3/Sum/Sum.cs
+	new file:   week-04/day-3/Sum/SumTest.cs
+	new file:   week-04/day-3/Sum/SumTest/SumTest.cs
+	new file:   week-04/day-3/Sum/packages.config
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   week-04/day-3/AppleProject/AppleProjectTest/AppleTest.cs
+	modified:   week-04/day-3/Sum/Sum.cs
+	modified:   week-04/day-3/Sum/SumTest/SumTest.cs
+	modified:   week-04/day-3/Sum/packages.config
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	week-04/day-3/Sum/Program.cs
+	week-04/day-3/Sum/Properties/
+	week-04/day-3/Sum/Sum.csproj
+	week-04/day-3/Sum/Sum.sln
+
+Katona-Air:moodytea moodytea$ git add .
+warning: CRLF will be replaced by LF in week-04/day-3/Sum/Sum.csproj.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-3/Sum/Sum.sln.
+The file will have its original line endings in your working directory.
+Katona-Air:moodytea moodytea$ git commit -m "sum done"
+[master 9bef3e6] sum done
+ 9 files changed, 199 insertions(+)
+ create mode 100644 week-04/day-3/Sum/Program.cs
+ create mode 100644 week-04/day-3/Sum/Properties/AssemblyInfo.cs
+ create mode 100644 week-04/day-3/Sum/Sum.cs
+ create mode 100644 week-04/day-3/Sum/Sum.csproj
+ create mode 100644 week-04/day-3/Sum/Sum.sln
+ create mode 100644 week-04/day-3/Sum/SumTest.cs
+ create mode 100644 week-04/day-3/Sum/SumTest/SumTest.cs
+ create mode 100644 week-04/day-3/Sum/packages.config
+Katona-Air:moodytea moodytea$ git push
+Counting objects: 17, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (17/17), 3.22 KiB | 1.07 MiB/s, done.
+Total 17 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/greenfox-academy/moodytea.git
+   f3c3095..9bef3e6  master -> master
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   week-04/day-3/anagram/AreTheyAnagram.cs
+	new file:   week-04/day-3/anagram/packages.config
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   week-04/day-3/anagram/AreTheyAnagram.cs
+	modified:   week-04/day-3/anagram/packages.config
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	week-04/day-3/anagram/AppInitializer.cs
+	week-04/day-3/anagram/Tests.cs
+	week-04/day-3/anagram/anagram.csproj
+	week-04/day-3/anagram/anagram.sln
+
+Katona-Air:moodytea moodytea$ git add .
+warning: CRLF will be replaced by LF in week-04/day-3/anagram/anagram.csproj.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-3/anagram/anagram.sln.
+The file will have its original line endings in your working directory.
+Katona-Air:moodytea moodytea$ git commit -m "anagram done"
+[master 324abe0] anagram done
+ 6 files changed, 167 insertions(+)
+ create mode 100644 week-04/day-3/anagram/AppInitializer.cs
+ create mode 100644 week-04/day-3/anagram/AreTheyAnagram.cs
+ create mode 100644 week-04/day-3/anagram/Tests.cs
+ create mode 100644 week-04/day-3/anagram/anagram.csproj
+ create mode 100644 week-04/day-3/anagram/anagram.sln
+ create mode 100644 week-04/day-3/anagram/packages.config
+Katona-Air:moodytea moodytea$ git push
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (11/11), 2.90 KiB | 2.90 MiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/greenfox-academy/moodytea.git
+   9bef3e6..324abe0  master -> master
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   week-04/day-3/Fibonacci/packages.config
+	new file:   week-04/day-3/countLetters/CountLetters.cs
+	new file:   week-04/day-3/countLetters/packages.config
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   week-04/day-3/Fibonacci/packages.config
+	modified:   week-04/day-3/countLetters/CountLetters.cs
+	modified:   week-04/day-3/countLetters/packages.config
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	week-04/day-3/Fibonacci/AppInitializer.cs
+	week-04/day-3/Fibonacci/Fibonacci.csproj
+	week-04/day-3/Fibonacci/Fibonacci.sln
+	week-04/day-3/Fibonacci/Tests.cs
+	week-04/day-3/countLetters/AppInitializer.cs
+	week-04/day-3/countLetters/Tests.cs
+	week-04/day-3/countLetters/countLetters.csproj
+	week-04/day-3/countLetters/countLetters.sln
+
+Katona-Air:moodytea moodytea$ git add .
+warning: CRLF will be replaced by LF in week-04/day-3/Fibonacci/Fibonacci.csproj.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-3/Fibonacci/Fibonacci.sln.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-3/countLetters/countLetters.csproj.
+The file will have its original line endings in your working directory.
+warning: CRLF will be replaced by LF in week-04/day-3/countLetters/countLetters.sln.
+The file will have its original line endings in your working directory.
+Katona-Air:moodytea moodytea$ git commit -m "countLetters done"
+[master 0631168] countLetters done
+ 11 files changed, 325 insertions(+)
+ create mode 100644 week-04/day-3/Fibonacci/AppInitializer.cs
+ create mode 100644 week-04/day-3/Fibonacci/Fibonacci.csproj
+ create mode 100644 week-04/day-3/Fibonacci/Fibonacci.sln
+ create mode 100644 week-04/day-3/Fibonacci/Tests.cs
+ create mode 100644 week-04/day-3/Fibonacci/packages.config
+ create mode 100644 week-04/day-3/countLetters/AppInitializer.cs
+ create mode 100644 week-04/day-3/countLetters/CountLetters.cs
+ create mode 100644 week-04/day-3/countLetters/Tests.cs
+ create mode 100644 week-04/day-3/countLetters/countLetters.csproj
+ create mode 100644 week-04/day-3/countLetters/countLetters.sln
+ create mode 100644 week-04/day-3/countLetters/packages.config
+Katona-Air:moodytea moodytea$ git push
+Counting objects: 15, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 3.72 KiB | 1.86 MiB/s, done.
+Total 15 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 1 local object.
+To https://github.com/greenfox-academy/moodytea.git
+   324abe0..0631168  master -> master
+Katona-Air:moodytea moodytea$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working tree clean
+Katona-Air:moodytea moodytea$ cd ..
+Katona-Air:greenfox moodytea$ ls
+cv2.css				moodytea.github.io
+cv2.html			pallida-basic-exam-trial
+moodytea
+Katona-Air:greenfox moodytea$ git clone https://github.com/greenfox-academy/moodytea-todo-app.git
+Cloning into 'moodytea-todo-app'...
+warning: You appear to have cloned an empty repository.
+Katona-Air:greenfox moodytea$ ls
+cv2.css				moodytea-todo-app
+cv2.html			moodytea.github.io
+moodytea			pallida-basic-exam-trial
+Katona-Air:greenfox moodytea$ cd moodytea-todo-app
+Katona-Air:moodytea-todo-app moodytea$ cd ..
+Katona-Air:greenfox moodytea$ cd moodytea
+Katona-Air:moodytea moodytea$ ls
+README.md			week-02
+pallida-basic-exam-trial	week-03
+week-01				week-04
+Katona-Air:moodytea moodytea$ cd..
+-bash: cd..: command not found
+Katona-Air:moodytea moodytea$ cd ..
+Katona-Air:greenfox moodytea$ ls
+cv2.css				moodytea-todo-app
+cv2.html			moodytea.github.io
+moodytea			pallida-basic-exam-trial
+Katona-Air:greenfox moodytea$ moodytea-todo-app
+-bash: moodytea-todo-app: command not found
+Katona-Air:greenfox moodytea$ touch .gitignore
+Katona-Air:greenfox moodytea$ ls
+cv2.css				moodytea-todo-app
+cv2.html			moodytea.github.io
+moodytea			pallida-basic-exam-trial
+Katona-Air:greenfox moodytea$ ls -a
+.				cv2.html
+..				moodytea
+.DS_Store			moodytea-todo-app
+.gitignore			moodytea.github.io
+cv2.css				pallida-basic-exam-trial
+Katona-Air:greenfox moodytea$ nano .gitignore
+
+  GNU nano 2.0.6              File: .gitignore                        Modified  
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Tabs Studio
+*.tss
+
+# Telerik's JustMock configuration file
+*.jmconfig
+
+# BizTalk build output
+*.btp.cs
+*.btm.cs
+*.odx.cs
+*.xsd.cs
+
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
