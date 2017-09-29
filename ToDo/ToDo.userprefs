@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{34E38D6D-2E3B-49EA-8783-FA23A8E7F320}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="todolist.txt">
+    <Files>
+      <File FileName="Program.cs" Line="28" Column="40" />
+      <File FileName="List.cs" Line="84" Column="25" />
+      <File FileName="todolist.txt" Line="2" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

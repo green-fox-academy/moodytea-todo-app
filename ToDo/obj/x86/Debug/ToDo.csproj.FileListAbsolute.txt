@@ -1,0 +1,6 @@
+/Users/moodytea/Documents/greenfox/moodytea-todo-app/ToDo/bin/Debug/ToDo.exe
+/Users/moodytea/Documents/greenfox/moodytea-todo-app/ToDo/bin/Debug/ToDo.pdb
+/Users/moodytea/Documents/greenfox/moodytea-todo-app/ToDo/obj/x86/Debug/ToDo.csproj.CoreCompileInputs.cache
+/Users/moodytea/Documents/greenfox/moodytea-todo-app/ToDo/obj/x86/Debug/ToDo.exe
+/Users/moodytea/Documents/greenfox/moodytea-todo-app/ToDo/obj/x86/Debug/ToDo.pdb
+/Users/moodytea/Documents/greenfox/moodytea-todo-app/ToDo/bin/Debug/todolist.txt
