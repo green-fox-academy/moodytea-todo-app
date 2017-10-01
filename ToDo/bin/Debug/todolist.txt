@@ -1,4 +1,4 @@
-﻿Buy milk
-Walk the dog
-Do HW
-Feed the monkey
+﻿finish ToDo App
+feed the monkey
+get sleep
+do yoga
